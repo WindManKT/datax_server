@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: datax-database-dev
+  cloud:
+    nacos:
+      config:
+        file-extension: yaml
+      server-addr: 10.42.102.34:8848
+      discovery:
+        ip: 10.42.102.34
+  profiles:
+    active: dev
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://127.0.0.1:3306/wind?serverTimezone=GMT%2B8
+#    username: root
+#    password: root
