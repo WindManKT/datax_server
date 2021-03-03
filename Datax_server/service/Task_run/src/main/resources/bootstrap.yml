@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: datax-task-dev
+  cloud:
+    nacos:
+      config:
+        file-extension: yaml
+      server-addr: 10.42.102.34:8848
+  profiles:
+    active: dev
